@@ -5,7 +5,7 @@
 A lightweight **controller agent** steers a **frozen reasoner** step by step under a thinking-token budget — choosing a reasoning *strategy* and a short *steering phrase* at each step — for controllable accuracy–efficiency trade-offs without retraining the reasoner.
 
 <p align="center">
-  <a href="TODO"><img src="https://img.shields.io/badge/arXiv-TODO-b31b1b?style=flat&labelColor=555" alt="arXiv"></a>
+  <a href="https://arxiv.org/abs/2606.03965"><img src="https://img.shields.io/badge/arXiv-2606.03965-b31b1b?style=flat&labelColor=555" alt="arXiv"></a>
   <a href="https://huggingface.co/yuuxia/acts-controller"><img src="https://img.shields.io/badge/Model-FFD21E?style=flat&labelColor=555&logo=huggingface&logoColor=FFD21E" alt="Model"></a>
   <a href="https://huggingface.co/datasets/yuuxia/controller-sft-data"><img src="https://img.shields.io/badge/Data-FFD21E?style=flat&labelColor=555&logo=huggingface&logoColor=FFD21E" alt="SFT data"></a>
 </p>
@@ -81,12 +81,13 @@ Benchmarks are MATH-500, AMC, AIME 2024, OlympiadBench, and GPQA Diamond; `run_a
 
 ```bibtex
 @misc{xia2026acts,
-      title={Agentic Chain-of-Thought Steering},
-      author={TODO},
+      title={Agentic Chain-of-Thought Steering for Efficient and Controllable LLM Reasoning},
+      author={Yu Xia and Zhouhang Xie and Xin Xu and Byungkyu Kang and Prarit Lamba and Xiang Gao and Julian McAuley},
       year={2026},
-      eprint={TODO},
+      eprint={2606.03965},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.03965},
 }
 ```
 
